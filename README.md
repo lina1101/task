@@ -37,4 +37,4 @@ The root page at `/` contains a link to each of the algorithm pages.
 
 Each algorithm page is rendered using Django templates and data validation is handled by Django Forms. Upon submitting data for processing the server will return both the result (if it was possible to calculate) and the execution time which is rendered at the bottom of the page.
 
-The algorithm code can be found in `api/utils.py` with applicable documentation code where necessary. You will also find a testcase in `api/tests.py` though it is fairly bare-bones. Had there been a requirement for a more complex API I would have most likely introduced more test cases for any new endpoints.
+The algorithm code can be found in `api/tasks.py` with applicable documentation code where necessary. You will also find a testcase in `api/tests.py` though it is fairly bare-bones. Had there been a requirement for a more complex API I would have most likely introduced more test cases for any new endpoints.
